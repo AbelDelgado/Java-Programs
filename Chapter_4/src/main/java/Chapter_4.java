@@ -3,6 +3,8 @@ class Chapter_4
 {                                    
     public static void main(String args[])
     {
+        
+        
         //Results for the .THIS example
         testing_Without_This object1 = new testing_Without_This();
         object1.setData(3, 5);
