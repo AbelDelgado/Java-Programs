@@ -79,6 +79,26 @@ class arrays_Structures
         test2 = new int[10];
                 
         
+        //Copying an array
+        //Can be used when creating a new object with the array                
+        int [] nums = {1,2,3,4};
+        int [] copy;
+        copy = nums;
+        
+        /*
+        class test
+        {
+            int [] array_Copy;        
+            test(int [] x)
+            {
+                array_Copy = x;
+            }                
+        }        
+        
+        */
+
+        
+        
         
         //What happens if you create an array, but then use NEW to make it again?
         int [] new_Array = {1,2,3,4,5};        
@@ -570,7 +590,19 @@ class for_Each_Loops
 //---------------------------------------------------------------------------------------------------------------------------------------------------
 //PART EIGHT - Strings 
 //Creating a Strings == creating objects!!
-//Once a string has been created, it CANNOT be altered
+//Once a string has been created, you cannot modify it
+/*
+    String s = "1";  
+    s.concat("2");//concat() method appends the string at the end  
+    System.out.println(s);//will print "1" because strings are immutable objects  
+    
+    "1" and "12" are both inside S, but only 1 is referenced. You can always:
+
+    s = "2"; //this changes the reference
+    
+*/
+//But you 
+
 //If you need to make a change, make a new string with the new change
 
 class strings_Example
@@ -930,8 +962,9 @@ public class Chapter_5
         //Check top of project on how to set cmd line arguments 
         //System.out.println("ARGS: "+args[0]);
         
-        
-        
+        String msg = "asd";
+        msg = "STOP";
+        System.out.println("msg= "+msg);
         
         
        //*******Array Structure Class******************
@@ -962,7 +995,7 @@ public class Chapter_5
        
        ////******?????????????????????**********************       
        var runProgram5 = new question_Mark_Class();
-       runProgram5.question_Mark_Method();
+       //runProgram5.question_Mark_Method();
               
        
        
