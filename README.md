@@ -18,6 +18,8 @@ CTRL+SHIFT+. or CTRL+SHIFT+, toggles between them
 
 
 
+CTRL+SHIFT+ -/+ = minimize/maxmimize all functions
+
 
 Breakpoint
 Click on one of the numbers to set a breakpoint
@@ -49,3 +51,9 @@ arguments are saved as:
 public static void main (String [] args)
 args = { "This", "is", "an", "argument"};
            0       1    2       3
+           
+           
+           
+           
+//If using SYSTEM.IN.READ, you need to have: throws java.io.IOException 
+//STATIC - create only one function/variable that will be used across the entire class
