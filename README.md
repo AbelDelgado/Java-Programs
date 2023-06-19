@@ -55,5 +55,5 @@ args = { "This", "is", "an", "argument"};
            
            
            
-//If using SYSTEM.IN.READ, you need to have: throws java.io.IOException 
-//STATIC - create only one function/variable that will be used across the entire class
+If using SYSTEM.IN.READ, you need to have: throws java.io.IOException 
+STATIC - create only one function/variable that will be used across the entire class
