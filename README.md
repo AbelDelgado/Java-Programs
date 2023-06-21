@@ -36,6 +36,7 @@ See CHAPTER 5 - Queues example (Part 6)
 ie. 
 runProgram2.main(null);
 
+It's like running a function called main in your real main
 
 
 
