@@ -1,30 +1,30 @@
+//If using SYSTEM.IN.READ, you need to have: throws java.io.IOException 
+//STATIC - create only one function/variable that will be used across the entire class
+
+
 public class Chapter_3 
 {    
     
-    public static void main(String[] args) throws java.io.IOException
-    {        
-        
-        //System read example
-        
-        /*
-        char ch;
+    
+    
+    //System read example - NOTE: the enter key is still in the buffer
+    static void system_read_Example() throws java.io.IOException
+    {                            
         System.out.println(" Yo press a key");
-        //ch = (char) System.in.read();        
-        //int a = System.in.read();                       //System.in.read takes in a THE FIRST keyboard key and sets it as an int (unicode character)
+        char ch = (char) System.in.read();              //System.in.read takes in a THE FIRST keyboard key and sets it as an int (unicode character). Thats why we cast it as a char here
+        int a = System.in.read();                       //Since system.in.read sets the input as an int, we dont need to cast it
         
-        //System.out.println(" You entered: " + ch );
-        //System.out.println(" You entered: " +(char)a );
-        
-        
-        */
-        
-        
-        
-        
-        
-        //The Switch Case Example        
-        
-        /*
+        System.out.println(" You entered: " + ch );
+        System.out.println(" You entered: " +(char)a );                                
+    }
+    
+    
+    
+    
+    
+    // The Switch Case Example  
+    static void switch_Example() throws java.io.IOException
+    {                            
         System.out.println("Select an option");
         System.out.println("1. If");
         System.out.println("2. Switch");
@@ -49,65 +49,69 @@ public class Chapter_3
                 break;
             default:
                 System.out.println("Can you not read");               
-        }           
+        }                                                                   
+    }
+    
+    
+    
+    
+    
+     
+    static void for_loops_Example() throws java.io.IOException
+    {
         
         
-        */
-           
-        
-        //For loop - Multi variable  
-        
-        /*
+        //For loop - Multi variable 
         int z = 0, y = 0;
         boolean result = false;
         for (z = 0,y = 10; z < y; z++, y--)
         {
             System.out.println("z is " +z+ " and y is " +y);
         }
-        */
         
         
+              
+        //For loop - INFINITE                
         
-        //For Loop - function for control 
+//        for(;;)
+//        {            
+//        }   
         
-        /*
+       
+
+
+        //For Loop - function for control                 
         int i = 0;
         for (i = 0; (char)System.in.read() != 's'; i++)
         {
             System.out.println(" Pass #" + i);
         }
-        */
         
         
-        //For loop - NO initializer + NO iteration
-               
-        /*
-        int i = 0;  //the initializer is outside the loop
         
-        for (; i<10; )   // -> no initializer or iteration
+        
+        
+        //For loop - NO initializer + NO iteration                       
+        int a = 0;  //the initializer is outside the loop
+        
+        for (; a<10; )   // -> no initializer or iteration
         {
-            System.out.println(" Pass #" + i);
-            i++;
-        }
-        */
-        
-        //For loop - INFINITE
-        
-        /*
-               
-        for(;;)
-        {
-            
+            System.out.println(" Pass #" + a);
+            a++;
         }
         
-        
-        */
-        
-       
-        
-        //Do while - Checks condition at the end (as opposed to at the start where it may not preform body if it fails)
-        
-        /*
+                       
+    }
+    
+    
+    
+    
+    
+    //Do while - Checks condition at the end (as opposed to at the start where it may not preform body if it fails)    
+    static void do_while_Example() throws java.io.IOException
+    {
+           
+  
         char ch, ignore;
         
         do
@@ -122,32 +126,39 @@ public class Chapter_3
             }while (ignore != '\n');
            
         } while (ch != 'q');
-        */
         
+        
+    }
+            
+    
+    static void using_Labels()
+    {
         
        //BREAK to exit a loop - if you have more than 1 loop, the break will only exit the current loo0p
         
-        /*
-        int i = 0;
+        
+        int a = 0;
         do
         {
-            for (i = 0; i <3;i++)
+            for (a = 0; a <3;a++)
             {
-                if (i == 2)
+                if (a == 2)
                     break;                                
             }
                 
-            System.out.println(i);            
-            i++;
-        }while (i<100);
+            System.out.println(a);            
+            a++;
+        }while (a<100);
            
-        */   
+         
         
               
+        
+        
         //BREAK - using labels. In this example, when it gets to 1, it will do every single case, but the important thing to note is that you can control where it wil go
-        /*             
+                    
               
-        for (int i = 1; i <4; i++)
+        for (int b = 1; b <4; b++)
         {
             one:    
             {
@@ -155,9 +166,9 @@ public class Chapter_3
                 {
                     three:                
                     {
-                        if (i == 1) break one;
-                        if (i == 2) break two;
-                        if (i == 3) break three;
+                        if (b == 1) break one;
+                        if (b == 2) break two;
+                        if (b == 3) break three;
                         
                         System.out.println("HEYO");
                     }                    
@@ -168,7 +179,8 @@ public class Chapter_3
             System.out.println("HEYO 3");
         
         }
-        */
+        
+        
         
         
         
@@ -192,18 +204,18 @@ public class Chapter_3
         */
         
         
-        /*
+        
         done:
-        for (int i = 1; i <3; i++)
+        for (int c = 1; c <3; c++)
         {            
-            for (int j = 1; j <100; j++)
+            for (int d = 1; d <100; d++)
             {               
-                for (int k = 1; k <200; k++)
+                for (int e = 1; e <200; e++)
                 {
-                    System.out.println("i = "+ i +", j = " + j + ", k = " +k);  //weird, i + j + k does NOT print each one, but adds them all together
+                    System.out.println("c = "+ c +", d = " + d + ", e = " +e);  //weird, c + d + re does NOT print each one, but adds them all together
                     
                     System.out.println("HEYO");
-                    if (i == 1) break done;     // This breaks the loop that done is under control of.
+                    if (c == 1) break done;     // This breaks the loop that done is under control of.
                 }
                 System.out.println("HEYO 2");
             }                        
@@ -213,7 +225,7 @@ public class Chapter_3
         System.out.println("");
         System.out.println("");
         
-        */
+        
         
         /*____________________________________       
         /    for (int i = 1; i <3; i++)       \___________________________________
@@ -228,7 +240,7 @@ public class Chapter_3
         */
                          
         
-        /*
+        
         
         int i,j;
         
@@ -243,15 +255,16 @@ public class Chapter_3
         }
         System.out.println("done");                        
         
-        */
+        
+    }
+    
+    //Continue - can make a loop continue to it's next iteration         
+    static void continue_Example()
+    {
         
         
         
         
-        
-        //Continue - can make a loop continue to it's next iteration 
-        
-        /*
         outerloop:
         for (int i = 0; i < 5; i++)
         {
@@ -264,9 +277,9 @@ public class Chapter_3
                 }
             }
         }
-        */
         
-        /*
+        
+        
         for (int i = 0; i < 5; i++) //LOOP A
         {
             for (int j = 0; j < 100; j++) //LOOP B
@@ -280,20 +293,28 @@ public class Chapter_3
         }
         
         
-        */
+        
+    }
+    
+    static void count_spaces_in_String() throws java.io.IOException
+    {
+          
         
         char ch,ignore;
         int spaces = 0;
         System.out.println(" Yo press a key");
         
+        
+        
+        //This will go through each individual character
         do{
             ch = (char) System.in.read();        
             do
             {
                 ignore = (char) System.in.read();                    
-                if (ignore == ' ')
+                if (ignore == ' ')                  //if a space is detectedw
                     spaces++;
-            }while (ignore != '\n');
+            }while (ignore != '\n');                //if the enter key is detected (basically, at the end of the line)
             
             
             System.out.println(" Number of spaces = " +spaces);
@@ -303,26 +324,20 @@ public class Chapter_3
         
         
         
+    }
+    
+    
+    public static void main(String[] args) throws java.io.IOException
+    {        
         
-        for (int i = 0; i < 10; i++)
-        {
-            while (true)
-            {               
-                if ( 1 < 3)
-                {
-                    break;
-                }
-            }                
-            System.out.println("here");
-        }
-        System.out.println("herwaease");
-        
-        
-        //int a = System.in.read();                       //System.in.read takes in a THE FIRST keyboard key and sets it as an int (unicode character)
-        
-        //System.out.println(" You entered: " + ch );
-        //System.out.println(" You entered: " +(char)a );
-        
+//        system_read_Example();
+//        switch_Example();
+//        for_loops_Example();
+//        do_while_Example();               
+//        using_Labels();
+//        continue_Example();
+        count_spaces_in_String();    
+               
         
     }
 }

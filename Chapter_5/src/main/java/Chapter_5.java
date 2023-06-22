@@ -52,7 +52,7 @@ class arrays_Structures
        
     
     
-    //This section demonstrates spliting the creating of an array OUTSIDE of a method fails
+    //This section demonstrates spliting the creation of an array OUTSIDE of a method fails
     
     //int test[];               
     //test = new int[10];       //----------> THIS FAILS
@@ -364,6 +364,7 @@ class arrays_Structures
 
 //--------------------------------------------------------------------------------------------------------------------------------
 //PART SIX - Stacks (of Plates) and Queues (of people in a line)
+
 //QUEUES:
 //1. Once an elemenet has been retrieved, it cannot be retrieved again
 //2. queue can get full or empty .... lol
@@ -974,7 +975,7 @@ public class Chapter_5
        //runProgram1.array_Length();
        
        
-       //*******Queue Example**************************
+       //*******Queue Example**************************                                          PART SIX!! PART SIX!! PART SIX!! PART SIX!! PART SIX!! PART SIX!! PART SIX!! PART SIX!! PART SIX!! PART SIX!! PART SIX!! PART SIX!! PART SIX!!
        queue_Example_Data_Input runProgram2 = new queue_Example_Data_Input();
        //runProgram2.main(null);
        

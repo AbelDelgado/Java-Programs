@@ -1,6 +1,7 @@
 
 class Chapter_4 
-{                                    
+{                            
+    int x =0;
     public static void main(String args[])
     {
         
@@ -16,7 +17,6 @@ class Chapter_4
         
         
         
-        
         //Results for the "Returning a double to a variable expecting an int"
         //Test to see what happens if a method that returns an int gets assigned to a variable with type int (IT FAILS)
         casting_Double_To_Int test = new casting_Double_To_Int();
@@ -24,13 +24,22 @@ class Chapter_4
         // x = (test.returnDoubleValue(7);  FAILS because the return is a double, and you can't put that into an int
      
         //System.out.println(test.returnDoubleValue(7));
-    }                  
+    }
+    
+    //used in example
+    int range()
+    {
+       return 1; 
+    }
 }
 
        
 
 //Example from https://www.guru99.com/java-this-keyword.html
 //.this Example
+//Using .this lets you select the variable from within the class
+//This lets set a variable in the class with another parameter with the same name 
+
 class testing_Without_This
 {    
     int a;
@@ -43,8 +52,8 @@ class testing_Without_This
     }
     public void showData()
     {
+        System.out.println("---NOT USING .THIS--------");
         System.out.println("Value of A ="+a);
-        System.out.println("");
         System.out.println("Value of B ="+b);
     }       
    
@@ -62,8 +71,8 @@ class testing_Using_This
     }
     public void showData()
     {
+        System.out.println("------USING .THIS--------");
         System.out.println("Value of A ="+a);
-        System.out.println("");
         System.out.println("Value of B ="+b);
     }    
 }
@@ -90,12 +99,7 @@ class casting_Double_To_Int
 
 class chapter4_data 
 {
-    
-    
-    
-    
-    
-    
+                        
     //Creating Objects
     void creating_Objects()
     {

@@ -1,20 +1,20 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- */
 
-/**
- *
- * @author Mirzado 2.0
- */
 public class Chapter_2 {
 
     public static void main(String[] args) 
     {
+        
+        //------------------------------------------------------------------------
         int x = 0;        
+        
+        
         
         x = x + 1; //For n00bs
         x += 1;    //Professional Java Developer        
         //System.out.println(x);
+        
+        //------------------------------------------------------------------------
+        
         
         
         
@@ -25,6 +25,8 @@ public class Chapter_2 {
         //System.out.println(a);
         //System.out.println(b);
         
+        //------------------------------------------------------------------------
+        
         
         
         boolean part1 = true;
@@ -34,7 +36,10 @@ public class Chapter_2 {
         System.out.println((part1 & part2));  //and
         System.out.println((part1 ^ part2));  //XOR
         System.out.println((part1 != part2)); //NOT
-                      
+        
+        
+        
+        //------------------------------------------------------------------------                      
         //Conversion
         int i = 0;
         float f = 0;
@@ -46,6 +51,7 @@ public class Chapter_2 {
         f = i; //note that i = f WILL FAIL because f is waay bigger than an int
         
         
+        //------------------------------------------------------------------------                       
         //Weird Byte Behaviour
         
         byte h = 3;
@@ -53,6 +59,10 @@ public class Chapter_2 {
         byte result = 0;
         
         result = (byte)(h*k);  //YOU HAVE TO CAST AS byte because byte x byte creates an int for some reason
+        
+        
+        
+        //------------------------------------------------------------------------        
         
         
         /*Shorthand Expressions:        

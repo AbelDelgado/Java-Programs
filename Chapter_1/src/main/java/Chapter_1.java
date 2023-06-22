@@ -1,4 +1,5 @@
-public class Chapter_1 {
+public class Chapter_1 
+{
     
     static void gallons_into_liters()
     {                                     

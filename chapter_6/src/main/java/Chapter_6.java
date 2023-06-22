@@ -14,6 +14,9 @@ SHIFT + DEL COPYS LINE AND THEN DELETES IT
 //--------------------Part 1 - Access Modifiers------------------------------------------------------
 //PUBLIC - can be accessed by code outside of class, default setting
 //PRIVATE - only methods inside class
+//General rules for PRIVATE:
+//1. If a variable is ONLY going to be used in that class, it should be private
+//2. If a variables MUST be accessed by another class, make it private and have a method to handle it
 
 class access_Modifiers
 {
@@ -43,7 +46,7 @@ class access_Modifiers
     
     private boolean check_If_Valid(int index)
     {
-        if (index >array.length || index < 0)
+        if (index > array.length || index < 0)
             return false;
         else return true;
     }
@@ -315,6 +318,10 @@ class recursion_Example
 //3. Can only access static variables
 //4. Do not use ".this" reference
 //Static Blocks: Will always run first before anything else when class is loaded
+
+//When to use: 
+//In a class, you can have methods that will only be used within that class
+//So if you create a bunch of static methods
 
 
 class static_Class
