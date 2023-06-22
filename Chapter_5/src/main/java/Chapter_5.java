@@ -4,6 +4,20 @@ CTRL+SHIFT+M makes a bookmak, so you don't have to scroll ALLLL the way to main
 CTRL+SHIFT+. or CTRL+SHIFT+, toggles between them
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Breakpoint
 <----Click on one of these numbers to set a breakpoint
 Then, if you use DEBUGGER (beside the compile button), it will stop wherever you set it.
