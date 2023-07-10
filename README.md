@@ -1,7 +1,7 @@
 # Deleting Lines
 `SHIFT + DEL` = _Copies line and then deletes it_   
   
-`CTRL + DEL` = _delete current word_    
+`CTRL + DEL` = _delete current word, OR all blank lines_    
 
 # Formating 
 `CTRL + ?` = _instantly make a comment! OMG_  
