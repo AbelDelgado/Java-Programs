@@ -1,15 +1,13 @@
+....  
+Package are groups of classes  
 
-
-....
-Package are groups of classes
-
-PRESS CTRL + ? to instantly make a comment! OMG
-....
-
-
-....
-SHIFT + DEL COPYS LINE AND THEN DELETES IT
-....
+PRESS CTRL + ? to instantly make a comment! OMG  
+....  
+  
+  
+....  
+SHIFT + DEL COPYS LINE AND THEN DELETES IT  
+....  
 
 
 ....
@@ -63,3 +61,23 @@ args = { "This", "is", "an", "argument"};
            
 If using SYSTEM.IN.READ, you need to have: throws java.io.IOException 
 STATIC - create only one function/variable that will be used across the entire class
+
+
+
+
+
+
+
+  
+GITHUB HELP:  
+To make a new line, put 2 empty spaces at the end of a sentance  
+
+
+
+
+
+
+
+
+
+
