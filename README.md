@@ -5,6 +5,10 @@
 
 # Formating 
 `CTRL + ?` = _instantly make a comment! OMG_  
+
+`CTRL + C` = _copies current line without having to highlight it_  
+  
+`CTRL + SHIFT + UP/DOWN` = _duplicate line AND paste above/below_      
   
 `ALT + SHIFT + UP/DOWN` = _move a line up or down_  
   
@@ -14,7 +18,7 @@
 
 `CTRL + UP / DOWN` = _scroll up or down_  
     
-`CTRL + SHIFT + UP` = _duplicate line AND paste below_      
+
     
 `CTRL + CLICK CLASS` = takes you to that class    
   
