@@ -35,7 +35,7 @@ class arrays_Structures
 {         
     //--------------------------------------------------------------------------------------------------------------------------------
     //PART ONE - Declaring arrays
-    //Creating arrays are just like creating objects:
+    //Creating arrays is just like creating objects:
     //1. creating the reference variable  (ie int example[]) 
     //2. allocate memory for the array  AND THEN assign a reference point to that space in memory to the variable        
     //
