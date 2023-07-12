@@ -532,14 +532,17 @@ class abstract_Example
 {
     void main()
     {
-//        super_Class obj_test = new super_Class;          //Abstract classes cannot be made into objects               
-        super_Class obj1[] = new super_Class[2];          //MAKING AN ARRAY, NOT AN OBJECT        
+//        super_Class obj_test = new super_Class;          //Abstract classes cannot be made into objects     
+        
+        super_Class obj1[] = new super_Class[2];          //pg 262 - making an array of type super class lets you assign the subclasses to it
+                                                          // however, note that each array is still unassigned
         
 //        obj1[0] = new super_Class();                  //Abstract classes cannot be assigned into objects               
 //        obj1[0].method_Abstract();                      //While this will COMPILE, this does NOT work because it was not initialized. While it was a type of super_Class, it was made as an array, and therefore not initalized
         
         obj1[0] = new sub_Class();                       
         obj1[0].method_Abstract();
+        
         
                 
     }
@@ -614,7 +617,8 @@ class the_Big_O
 
 
 
-public class Chapter_7 {
+public class Chapter_7 
+{
 
     public static void main(String[] args) 
     {

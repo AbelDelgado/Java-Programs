@@ -377,7 +377,7 @@ class using_Static
         
         int number = 3;
         static_Class.call_the_Static_Method(number); //note how the static methods is called
-        System.out.println(number);                 //NUMBER WAS NOT CHANGED
+        System.out.println(number);                
     }
 }
 
