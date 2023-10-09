@@ -4,7 +4,7 @@ package Interfaces_Using_Default;
 
 
 //When adding a new method to an interface, you don't want to write a new method for each program that implements it
-//using a default method in the iwnterface can provide a body for the method
+//using a default method in the interface can provide a body for the method
 //this means every class that implemenets this interface may end up with methods they don't really need
 
 
