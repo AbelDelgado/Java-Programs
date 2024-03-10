@@ -4,7 +4,8 @@ public class Chapter_2 {
     public static void main(String[] args) 
     {
         
-        //------------------------------------------------------------------------
+        //======================= Incremenet, decrement ===========================
+        
         int x = 0;        
         
         
@@ -29,6 +30,10 @@ public class Chapter_2 {
         
         
         
+        
+        
+        
+        //============================== Boolean ==================================
         boolean part1 = true;
         boolean part2 = false;
         
@@ -39,8 +44,18 @@ public class Chapter_2 {
         
         
         
-        //------------------------------------------------------------------------                      
-        //Conversion
+        //------------------------------------------------------------------------      
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        //==========================  Conversion =====================================
         int i = 0;
         float f = 0;
         
@@ -62,11 +77,8 @@ public class Chapter_2 {
         
         
         
-        //------------------------------------------------------------------------        
-        
-        
-        /*Shorthand Expressions:        
-        Will only evaluate the second expression if needed*/
+       //==========================  Shorthand Expressions =====================================                           
+        //Will only evaluate the second expression if needed
         
         int part3 = 0;
         
