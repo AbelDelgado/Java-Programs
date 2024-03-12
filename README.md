@@ -84,7 +84,6 @@ Basic Functions outside of main
 </sub>
 
 **Chapter 2**  
-
 <sub>
 Increment, Decrement    
 Boolean (OR, AND, XOR, NOT)  
@@ -93,7 +92,6 @@ Evaluate only if needed (aka Shorthand expression)
 </sub>
 
 Chapter 3  
-
 <sub>
 System.read (entering single key)  
 Switch Case  
@@ -115,7 +113,6 @@ using .this
 
 
 Chapter 5  
-
 <sub>
 arrays  
 stacks and queues  
@@ -128,7 +125,6 @@ mutltiple mains
 </sub>
 
 Chapter 6  
-
 <sub>
 Access Modifiers
 Call by reference / Value
