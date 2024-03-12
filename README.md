@@ -72,7 +72,122 @@ GITHUB HELP:
 To make a new line, put 2 empty spaces at the end of a sentance  
 
 
+### Chapters
 
+
+Chapter 1
+
+For Loop  
+Floats, Doubles  
+Print text to console  
+Basic Functions outside of main  
+
+
+Chapter 2  
+
+Increment, Decrement    
+Boolean (OR, AND, XOR, NOT)  
+Coversion / Convert   
+Evaluate only if needed (aka Shorthand expression)  
+
+
+Chapter 3  
+
+System.read (entering single key)  
+Switch Case  
+Loops  
+  For Loops  
+  Do While    
+  labels  
+  Break  
+  Continue  
+
+Count Spaces in a string  
+
+
+Chapter 4  
+Creating objects  
+using .this  
+
+
+Chapter 5  
+arrays  
+stacks and queues  
+for each loop  
+strings  
+inference variables (var)  
+bubble sort  
+the ? operator  
+mutltiple mains  
+
+
+Chapter 6  
+
+Access Modifiers
+Call by reference / Value
+Object creation
+Overloading (same method names, different parameters)
+STATIC
+
+
+
+Chapter 7  
+
+Inheritance  
+Super  
+Referencing / Extending  
+Method Overrideing  
+Abstract  
+Final keyword  
+Big O object
+
+
+
+Chapter 8  
+
+Interfaces  
+Packages  
+Protected Variables   
+Multiple Inheritance  
+
+
+Chapter 9  
+
+Errors  
+Throws  
+Exception  
+Custom Execption  
+
+Chapter 10  
+
+Write to file (text file)  
+IO Stream  
+
+
+Chapter 11  
+
+Threads  
+
+
+
+Chapter 12  
+
+Enumeration, ENUM  
+
+
+
+Chapter 13  
+
+Generics  
+Wildcards  
+
+
+Chapter 14  
+
+Lambda  
+Method Reference with Static  
+
+Chapter 15  
 
 
 
