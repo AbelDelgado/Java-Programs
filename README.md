@@ -72,7 +72,127 @@ GITHUB HELP:
 To make a new line, put 2 empty spaces at the end of a sentance  
 
 
+### Chapters
 
+
+**Chapter 1**  
+<sub> 
+For Loop  
+Floats, Doubles  
+Print text to console  
+Basic Functions outside of main  
+</sub>
+
+**Chapter 2**  
+<sub>
+Increment, Decrement    
+Boolean (OR, AND, XOR, NOT)  
+Coversion / Convert   
+Evaluate only if needed (aka Shorthand expression)  
+</sub>
+
+Chapter 3  
+<sub>
+System.read (entering single key)  
+Switch Case  
+Loops  
+  For Loops  
+  Do While    
+  labels  
+  Break  
+  Continue  
+Count Spaces in a string  
+</sub>
+
+Chapter 4  
+<sub>
+Creating objects  
+using .this  
+</sub>
+
+
+
+Chapter 5  
+<sub>
+arrays  
+stacks and queues  
+for each loop  
+strings  
+inference variables (var)  
+bubble sort  
+the ? operator  
+mutltiple mains  
+</sub>
+
+Chapter 6  
+<sub>
+Access Modifiers
+Call by reference / Value
+Object creation
+Overloading (same method names, different parameters)
+STATIC
+</sub>
+
+
+Chapter 7  
+<sub>
+Inheritance  
+Super  
+Referencing / Extending  
+Method Overrideing  
+Abstract  
+Final keyword  
+Big O object
+</sub>
+
+
+Chapter 8  
+<sub>
+Interfaces  
+Packages  
+Protected Variables   
+Multiple Inheritance  
+</sub>
+
+
+Chapter 9  
+<sub>
+Errors  
+Throws  
+Exception  
+Custom Execption  
+</sub>
+
+Chapter 10  
+<sub>
+Write to file (text file)  
+IO Stream  
+</sub>
+
+
+Chapter 11  
+<sub>
+Threads  
+</sub>
+
+
+Chapter 12  
+<sub>
+Enumeration, ENUM  
+</sub>
+
+
+Chapter 13  
+<sub>
+Generics  
+Wildcards  
+</sub>
+
+Chapter 14  
+<sub>
+Lambda  
+Method Reference with Static  
+</sub>
 
 
 
