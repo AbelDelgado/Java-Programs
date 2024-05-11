@@ -24,28 +24,34 @@
   
 ### Bookmarks
 `CTRL + SHIFT + M` = _makes a bookmak, so you don't have to scroll ALLLL the way to main_  
-`CTRL + SHIFT + .` or `CTRL + SHIFT + ` = _toggles between the bookmarks you've made_
+`CTRL + SHIFT + .` or `CTRL + SHIFT + ,` = _toggles between the bookmarks you've made_
   
 ### Breakpoint
-Click on one of the numbers to set a breakpoint  
+Click on one of the numbers to set a breakpoint (Must be on VALID line and not a blank or bracket).  
+You could also right click and select toggle break point  
+
 Then, if you use DEBUGGER (beside the compile button), it will stop wherever you set it.  
-You can then STEP through your program  
-  
+You can then use STEP INTO to go line by line in your program  
+Watch out when stepping into System.out.println as it will go through ALL the backend stuff. Use STEP OVER instead  
    
-### Multiple public static void Mains (String[] args)  
-See CHAPTER 5 - Queues example (Part 6)  
-ie.    
-runProgram2.main(null);   
+# Multiple public static void Mains (String[] args)  
+See Section E - Queues example (Part 6)  
   
-It's like running a function called main in your real main  
+Think of it like running a function called main  
+ie. runProgram2.main(null);  
+
+If you have 2 classes with main in them, you can select which one the PROJECT will run by selecting it as the MAIN CLASS in the project properties (see error "Project Failing to Run" below on how to set main class)
+
+NOTE: If you right-click and run NOT from the project, but from the file itself, it will ALWAYS run the main with the same name, regardless of how many mains you have  
 
 # Easy System.out.println("");
 typing "sout" and then pressing tab creates a System.out.println("");    
   
     
   
-# Using COMMAND LINE ARGUMENTS in netbeans  (pg 165)  
-in the Projects tab, right click the top main folder, and click properties  
+# Using COMMAND LINE ARGUMENTS in netbeans 
+Example in Section E - Part 6  
+In the Projects tab, right click the top main folder, and click properties  
 Click run, select the main class and add your arguments there  
 arguments are saved as:  
   
@@ -69,134 +75,29 @@ Packages = simply groups of classes
 
   
 GITHUB HELP:  
-To make a new line, put 2 empty spaces at the end of a sentance  
-
-
-### Chapters
-
-
-**Chapter 1**  
-<sub> 
-For Loop  
-Floats, Doubles  
-Print text to console  
-Basic Functions outside of main  
-</sub>
-
-**Chapter 2**  
-<sub>
-Increment, Decrement    
-Boolean (OR, AND, XOR, NOT)  
-Coversion / Convert   
-Evaluate only if needed (aka Shorthand expression)  
-</sub>
-
-Chapter 3  
-<sub>
-System.read (entering single key)  
-Switch Case  
-Loops  
-  For Loops  
-  Do While    
-  labels  
-  Break  
-  Continue  
-Count Spaces in a string  
-</sub>
-
-Chapter 4  
-<sub>
-Creating objects  
-using .this  
-</sub>
-
-
-
-Chapter 5  
-<sub>
-arrays  
-stacks and queues  
-for each loop  
-strings  
-inference variables (var)  
-bubble sort  
-the ? operator  
-mutltiple mains  
-</sub>
-
-Chapter 6  
-<sub>
-Access Modifiers
-Call by reference / Value
-Object creation
-Overloading (same method names, different parameters)
-STATIC
-</sub>
-
-
-Chapter 7  
-<sub>
-Inheritance  
-Super  
-Referencing / Extending  
-Method Overrideing  
-Abstract  
-Final keyword  
-Big O object
-</sub>
-
-
-Chapter 8  
-<sub>
-Interfaces  
-Packages  
-Protected Variables   
-Multiple Inheritance  
-</sub>
-
-
-Chapter 9  
-<sub>
-Errors  
-Throws  
-Exception  
-Custom Execption  
-</sub>
-
-Chapter 10  
-<sub>
-Write to file (text file)  
-IO Stream  
-</sub>
-
-
-Chapter 11  
-<sub>
-Threads  
-</sub>
-
-
-Chapter 12  
-<sub>
-Enumeration, ENUM  
-</sub>
-
-
-Chapter 13  
-<sub>
-Generics  
-Wildcards  
-</sub>
-
-Chapter 14  
-<sub>
-Lambda  
-Method Reference with Static  
-</sub>
+- Visit: https://www.markdownguide.org/basic-syntax/ for basic markdown/html structure
+- To make a new line, put 2 empty spaces at the end of a sentance  
+- To make a blank line, use `<br/><br/>`
+- Type `&nbsp;` to add a single space
+- Type `&ensp:` to add 2 spaces
+- Type `&emsp:` to add 4 spaces
+- To write symbols like `<br/><br/>`, put ` quotes around them (NOT SINGLE QUOTES)
+- Use `#` to make titles; adding more makes it bigger  
+# test  
+## test  
+### test  
+#### test  
+-----------------------------
 
 
 
 
+
+# Netbeans Errors
+
+### Project Failing to Run  
+If you change change the name/refactor a default file.java and then try to run the Project, it will FAIL because the project will be looking for the old name  
+To fix this, right click the project, and select properties. In the run section, set the main class as the new file.java you renamed.  
 
 
 
