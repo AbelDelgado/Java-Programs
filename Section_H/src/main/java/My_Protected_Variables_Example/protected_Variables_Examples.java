@@ -14,7 +14,7 @@ public class protected_Variables_Examples {
 
 
 
-//Below is an abstract class + an abstract method(from chpt 7) + includes a protected variable
+//Below is an abstract class + an abstract method(from Section G) + includes a protected variable
 abstract class abstract_class
 {    
     protected int a = 0;      

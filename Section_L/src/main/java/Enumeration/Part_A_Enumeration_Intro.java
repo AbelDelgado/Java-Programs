@@ -18,7 +18,7 @@ enum Transport_Part_A
 {
     CAR, TRAIN, PLANE, BOAT // -> enumeration constants
                             // -> public static
-                            // -> self typed (in this case, type = transport)
+                            // -> self typed (in this case, type = Transport_Part_A)
 }
 
 

@@ -5,6 +5,8 @@ package Protected_Variables;
 
 
 //PROTECTED VARIABLES
+//SEE - Protected_Varibales_Data package for the protected variables 
+
 //Protected can be accessed by:
 //- its own package (only by extending a subclass to a superclass, as you would normally do to access variables in another class)
 //- classes that extend to it

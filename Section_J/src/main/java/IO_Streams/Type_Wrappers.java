@@ -6,7 +6,8 @@ import java.io.*;
 
 
 //Type Wrappers = lets you take primitive types and WRAP them into an object 
-//number = Integer.parseInt(str); Integer is the type wrapper, and with it you can use primitive types LIKE OBJECTS!!
+//number = Integer.parseInt(str); Integer is the type wrapper, and it changes a string into an int
+//You can also convert primitive types and use them LIKE OBJECTS!!
 
 
 //Recieve NUMBER inputs, calculates average

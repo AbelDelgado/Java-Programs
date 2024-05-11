@@ -6,6 +6,9 @@ import java.io.FileOutputStream;
 import java.io.IOException;
 
 
+//See Section E on how to use command line arguments
+
+
 
 //try (resource) - using this version of 'try' will automatically close the stream after its done
 //Once try finishes, the resourse  is released, no need to use a finally close

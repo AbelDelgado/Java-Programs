@@ -5,7 +5,7 @@ package IO_Streams;
 import java.io.*;
 
 
-//The best way to read from the console w
+//The best way to read from the console 
 
 //read from the console until . is entered
 //Reads each individual character

@@ -11,7 +11,7 @@ package chapter_13;
 
 
 
-//<Generic_Type> is called a TYPE PARAMETER. It acts as a placeholder. The type whatever you enter when making an object from this class. You can rename this to anything you want on the line bellow
+//<Generic_Type> is called a TYPE PARAMETER. It acts as a placeholder. The type is whatever you enter when making an object from this class. You can rename this to anything you want on the line bellow
 //Proffesionals use A SINGLE CAPITAL LETTER for type parameters <T>
 //You can tell if a class = Generic if its using a type parameter
 //CANT USE PRIMITIVE TYPES (int,string,etc)

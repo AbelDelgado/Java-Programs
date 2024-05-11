@@ -18,8 +18,8 @@ public class Random_Access
         double d;
         
         
-        //open awnd use RANDOM access
-        try (RandomAccessFile raf = new RandomAccessFile("random.txt", "rw"))       //This is only made if this program is made the MAIN program in project properties
+        //open and use RANDOM access
+        try (RandomAccessFile raf = new RandomAccessFile("random.txt", "rw"))       //"random.txt" is only created if this program is made the MAIN program in project properties
         {
             //write values to file; still using bytes 
             for (int i = 0; i < data.length; i++)            
