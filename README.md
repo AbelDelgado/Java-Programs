@@ -1,3 +1,6 @@
+# Table of Contents
+https://github.com/AbelDelgado/Java-Programs/blob/main/Table%20of%20Contents.md
+
 # Deleting Lines
 `SHIFT + DEL` = _Copies line and then deletes it_   
   
